@@ -1,0 +1,43 @@
+body{
+  font-family: arial;
+  color: black;
+}
+
+footer{
+  margin-top: 70px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#container{
+  width: 60%;
+  margin: auto;
+}
+
+h1{
+  font-size: 300%;
+  
+  
+}
+
+h1, h2{
+  text-transform: uppercase;
+  font-weight: 100;
+  color: purple;
+}
+
+#quesadillas{
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  
+  h1{ font-size: 200%;
+  }
+  #container{
+  width: 90%;
+}
+}
